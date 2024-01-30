@@ -12,25 +12,25 @@ function Footer() {
             <div className='flex-col w-4/12 text-white'>
                 <img src={logo} alt="w-full" />
                 <div className='flex justify-start items-center gap-3 mt-10'>
-                    <img src={facebook} alt=""  />
-                    <img src={youtube} alt="" />
-                    <img src={twitter} alt="" />
-                    <img src={pinterest} alt="" />
-                    <img src={instagram} alt="" />
+                    <img src={facebook} alt="" className='cursor-pointer'  />
+                    <img src={youtube} alt="" className='cursor-pointer' />
+                    <img src={twitter} alt="" className='cursor-pointer' />
+                    <img src={pinterest} alt="" className='cursor-pointer' />
+                    <img src={instagram} alt="" className='cursor-pointer' />
                 </div>
             </div>
             <div className='flex-col w-3/12'>
                 <ul>
-                    <li className='text-base text-lightGrayishBlue font-medium'>About Us</li>
-                    <li className='text-base text-lightGrayishBlue font-medium'>Contact</li>
-                    <li className='text-base text-lightGrayishBlue font-medium'>Blog</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>About Us</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>Contact</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>Blog</li>
                 </ul>
             </div>
             <div className='flex-col w-3/12'>
                 <ul>
-                    <li className='text-base text-lightGrayishBlue font-medium'>Careers</li>
-                    <li className='text-base text-lightGrayishBlue font-medium'>Support</li>
-                    <li className='text-base text-lightGrayishBlue font-medium'>Privacy Policy</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>Careers</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>Support</li>
+                    <li className='text-base text-lightGrayishBlue font-medium hover:text-limeGreen cursor-pointer'>Privacy Policy</li>
                 </ul>
             </div>
         </div>

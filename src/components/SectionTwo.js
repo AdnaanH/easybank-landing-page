@@ -9,10 +9,10 @@ function SectionTwo() {
         <h2 className='text-darkBlue font-normal text-4xl'>Latest Articles</h2>
         <div className='mt-8 flex justify-between items-start gap-10'>
             <div className="flex-col w-3/12 h- rounded-md bg-white">
-                <img src={currency} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md'  />
+                <img src={currency} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md '  />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue '>By Claire Robinson</small>
-                    <h3 className='mt-3 font-medium text-darkBlue text-xl'>Receive money in any currency with no fees</h3>
+                    <h3 className='mt-3 font-medium text-darkBlue text-xl hover:text-brightCyan cursor-pointer'>Receive money in any currency with no fees</h3>
                     <p className='text-grayishBlue mt-3'>The world is getting smaller and we’re becoming more mobile. So why should you be 
                         forced to only receive money in a single …</p>
                 </div>
@@ -21,7 +21,7 @@ function SectionTwo() {
                 <img src={restaurant} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Wilson Hutton</small>
-                    <h3 className='mt-3 font-medium text-darkBlue text-xl'>Treat yourself without worrying about money</h3>
+                    <h3 className='mt-3 font-medium text-darkBlue text-xl hover:text-brightCyan cursor-pointer'>Treat yourself without worrying about money</h3>
                     <p className='text-grayishBlue mt-3'>Our simple budgeting feature allows you to separate out your spending and set 
                         realistic limits each month. That means you …</p>
                 </div>
@@ -30,7 +30,7 @@ function SectionTwo() {
                 <img src={plane} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Wilson Hutton</small>
-                    <h3 className='mt-3 font-medium text-darkBlue text-xl'>  Take your Easybank card wherever you go</h3>
+                    <h3 className='mt-3 font-medium text-darkBlue text-xl hover:text-brightCyan cursor-pointer'>  Take your Easybank card wherever you go</h3>
                     <p className='text-grayishBlue mt-3'>We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
                         while you’re abroad. We’ll even show you …</p>
                 </div>
@@ -39,7 +39,7 @@ function SectionTwo() {
                 <img src={confetti} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Claire Robinson</small>
-                    <h3 className='mt-3 font-medium text-darkBlue text-xl'>Our invite-only Beta accounts are now live!</h3>
+                    <h3 className='mt-3 font-medium text-darkBlue text-xl hover:text-brightCyan cursor-pointer'>Our invite-only Beta accounts are now live!</h3>
                     <p className='text-grayishBlue mt-3'>After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
                         It’s easy to request an invite through the site ...</p>
                 </div>
