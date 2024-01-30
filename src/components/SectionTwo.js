@@ -9,7 +9,7 @@ function SectionTwo() {
         <h2 className='text-darkBlue font-normal text-4xl'>Latest Articles</h2>
         <div className='mt-8 flex justify-between items-start gap-10'>
             <div className="flex-col w-3/12 h- rounded-md bg-white">
-                <img src={currency} alt="" className='h-44 w-full rounded-r-md rounded-l-md'  />
+                <img src={currency} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md'  />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue '>By Claire Robinson</small>
                     <h3 className='mt-3 font-medium text-darkBlue text-xl'>Receive money in any currency with no fees</h3>
@@ -18,7 +18,7 @@ function SectionTwo() {
                 </div>
             </div>
             <div className="flex-col w-3/12 rounded-md bg-white">
-                <img src={restaurant} alt="" className='h-44 w-full rounded-r-md rounded-l-md' />
+                <img src={restaurant} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Wilson Hutton</small>
                     <h3 className='mt-3 font-medium text-darkBlue text-xl'>Treat yourself without worrying about money</h3>
@@ -27,7 +27,7 @@ function SectionTwo() {
                 </div>
             </div>
             <div className="flex-col w-3/12 rounded-md bg-white">
-                <img src={plane} alt="" className='h-44 w-full rounded-r-md rounded-l-md' />
+                <img src={plane} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Wilson Hutton</small>
                     <h3 className='mt-3 font-medium text-darkBlue text-xl'>  Take your Easybank card wherever you go</h3>
@@ -36,7 +36,7 @@ function SectionTwo() {
                 </div>
             </div>
             <div className="flex-col w-3/12 rounded-md bg-white">
-                <img src={confetti} alt="" className='h-44 w-full rounded-r-md rounded-l-md' />
+                <img src={confetti} alt="" className='h-44 w-full rounded-tl-md rounded-tr-md' />
                 <div className='px-4 py-6'>
                     <small className='text-grayishBlue'>By Claire Robinson</small>
                     <h3 className='mt-3 font-medium text-darkBlue text-xl'>Our invite-only Beta accounts are now live!</h3>
